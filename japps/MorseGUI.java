@@ -181,6 +181,7 @@ public class MorseCoder extends JFrame implements ActionListener, CaretListener,
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
         } catch (ClassNotFoundException | IllegalAccessException | InstantiationException | UnsupportedLookAndFeelException e) {
+// do nothing
         }
 
     }
