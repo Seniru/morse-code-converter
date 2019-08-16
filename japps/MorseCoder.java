@@ -161,6 +161,7 @@ public class MorseCoder extends JFrame implements ActionListener, CaretListener,
                 try {
                     undoMan.undo();
                 } catch (CannotUndoException cue) {
+                    // do nothing
                 }
             }
         });
@@ -173,6 +174,7 @@ public class MorseCoder extends JFrame implements ActionListener, CaretListener,
                 try {
                     undoMan.redo();
                 } catch (CannotRedoException cre) {
+                    // do nothing
                 }
             }
         });
@@ -181,6 +183,7 @@ public class MorseCoder extends JFrame implements ActionListener, CaretListener,
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
         } catch (ClassNotFoundException | IllegalAccessException | InstantiationException | UnsupportedLookAndFeelException e) {
+            // do nothing
         }
 
     }
