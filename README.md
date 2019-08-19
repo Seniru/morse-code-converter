@@ -2,7 +2,7 @@
 A fancy application to convert text from a file or inputted text to Morse Code
 
 [![CodeFactor](https://www.codefactor.io/repository/github/seniru/morse-code-converter/badge)](https://www.codefactor.io/repository/github/seniru/morse-code-converter)
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Features
 
 - Convert text to morse code
